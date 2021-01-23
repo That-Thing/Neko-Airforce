@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(102, 104, 145);
+    color: rgb(51, 51, 51);
+    font-family: expressway;
+}
+a {
+    color: rgb(158 44 160);
+    text-decoration: none;
+    transition: font-size .3s;
+}
+a:hover {
+    color: rgb(200 57 203);
+    font-size: 105%;
+}
+
+footer {
+    text-align: center;
+    margin: 5px;
+    bottom:0;
+    position: fixed;
+    display: table;
+    width: 100%;
+    font-size: 70%;
+}
+@font-face {
+    font-family: drearybroken;
+    src: url(./fonts/drearybroken.ttf);
+}
+@font-face {
+    font-family: expressway;
+    src: url(./fonts/expressway.ttf);
+}
+.title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    text-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+#neko {
+    font-family: drearybroken;
+    font-size: 700%;
+    -webkit-text-stroke: 1px rgb(38, 38, 38);
+    color: rgb(94, 204, 125);
+    display: inline;
+    transition: font-size .3s; 
+}
+#neko:hover {
+    font-size: 720%;
+}
+#dot {
+    font-family: drearybroken;
+    font-size: 700%;
+    -webkit-text-stroke: 1px rgb(38, 38, 38);
+    color: rgb(94, 129, 204);
+    display: inline;
+    transition: font-size .3s; 
+}
+#dot:hover {
+    font-size: 720%;
+}
+#airforce {
+    font-family: drearybroken;
+    font-size: 700%;
+    -webkit-text-stroke: 1px rgb(38, 38, 38);
+    color: rgb(204, 94, 186);
+    display: inline;
+    transition: font-size .3s; 
+}
+#airforce:hover {
+    font-size: 720%;
+}
+#nekoImg {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card {
+    margin-bottom: 10px!important;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: solid 5px rgb(38, 38, 38);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+/*Mobile View of site*/
+
+@media only screen and (max-width: 812px) {
+    #neko {
+        font-size: 600%;
+    }
+    #neko:hover {
+        font-size: 620%;
+    }
+    #dot {
+        font-size: 600%;
+    }
+    #dot:hover {
+        font-size: 620%;
+    }
+    #airforce {
+        font-size: 600%;
+    }
+    #airforce:hover {
+        font-size: 620%;
+    }
+}
