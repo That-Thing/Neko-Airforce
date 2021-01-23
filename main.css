@@ -71,6 +71,7 @@ footer {
     font-size: 720%;
 }
 #nekoImg {
+    user-select: none;
     width: 15%;
     height: auto;
     display: block;
