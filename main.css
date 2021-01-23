@@ -31,6 +31,7 @@ footer {
     src: url(./fonts/expressway.ttf);
 }
 .title {
+    user-select: none;
     margin: auto;
     width: 50%;
     text-align: center;
