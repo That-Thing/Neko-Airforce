@@ -93,23 +93,36 @@ footer {
 }
 /*Mobile View of site*/
 
-@media only screen and (max-width: 812px) {
+@media (min-width: 320px) and (max-width: 999px) {
     #neko {
-        font-size: 600%;
+        -webkit-text-stroke: 3px rgb(38, 38, 38);
+        font-size: 900%;
     }
     #neko:hover {
-        font-size: 620%;
+        font-size: 920%;
     }
     #dot {
-        font-size: 600%;
+        -webkit-text-stroke: 3px rgb(38, 38, 38);
+        font-size: 900%;
     }
     #dot:hover {
-        font-size: 620%;
+        font-size: 920%;
     }
     #airforce {
-        font-size: 600%;
+        -webkit-text-stroke: 3px rgb(38, 38, 38);
+        font-size: 900%;
     }
     #airforce:hover {
-        font-size: 620%;
+        font-size: 920%;
+    }
+    .card {
+        font-size: 200%;
+        width: 70%;
+    }
+    #nekoImg {
+        width: 40%;
+    }
+    footer {
+        font-size: 90%;
     }
 }
